@@ -493,7 +493,7 @@ function App() {
               <a href="https://discord.gg/mqRuTWP4wY" className="button">
                 <img src="/assets/icons/discord.png" alt="Discord"/>
               </a>
-              <a href="https://discord.gg/mqRuTWP4wY" className="button-description">{'& '}&nbsp; <i>Join</i> <i>the Community!</i> </a>
+              <a href="https://discord.gg/mqRuTWP4wY" className="button-description">{'& '}&nbsp; <i>Join</i> the<i> Community!</i> </a>
             </div>
           </div>
         </div>
