@@ -205,15 +205,9 @@ function App() {
           <h1>ViCat</h1>
           <div className="info-board">
             <h2>The First <i>Cat Token</i> in the <i>Vite</i> Ecosystem</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
-              diam nonumy eirmod tempor invidunt ut labore et dolore 
-              magna aliquyam erat, sed diam voluptua. At vero eos et 
-              accusam et justo duo dolores et ea rebum. Stet clita kasd 
-              gubergren, no sea takimata sanctus est Lorem ipsum dolor sit 
-              amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-              sed diam nonumy eirmod tempor invidunt ut labore et dolore 
-              magna aliquyam erat, sed diam voluptua. At vero eos et 
-              accusam et justo duo dolores et ea rebum. Stet clita kasd
+            <p>ViCat is the first cat coin <b>Made in Germany</b> with zero fees and instant transfers! We love cats and ViCat is the Vite chain's very own fast and fluffy feeless cat coin. ViCat wants to bring some joy to the often missed <i>Cat Lovers</i> in the <i>Crypto Community</i>. There are quite a few dog coins out there but cats seem to come short way too often. We will try to change that with your help! If you want to be a part of the <i>ViCat Movement</i>, join the <a href="https://discord.gg/mqRuTWP4wY">Community Discord</a>.
+            <br/><br/>If you want to work with us, we're still looking for coders and designers.
+            <br/><i>Stay tuned!</i>
             </p>
           </div>
         </div>
@@ -307,6 +301,7 @@ function App() {
               padding: 0 10%;
               text-align: center;
               font-style: italic;
+              position: relative;
             }
 
             .info-board h2 i {
@@ -320,6 +315,28 @@ function App() {
               padding: 0 5%;
               line-height: 1.75;
               font-size: 20px;
+            }
+
+            .info-board p b {
+              font-weight: bold;
+              background: -webkit-linear-gradient(45deg ,#000000, #fc0101, #ffee00);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+
+            .info-board p i {
+              color: white;
+            }
+
+            .info-board p a {
+              color: #1e5328;
+              text-decoration: none;
+              font-weight: bold;
+              transition: all .5s;
+            }
+
+            .info-board p a:hover {
+              color: var(--green1);
             }
             
             @media (max-width: 900px) {
@@ -349,54 +366,31 @@ function App() {
         <div className="content-wrapper">
           <div className="info-wrapper">
             <div className="info-card">
-              <img src="/assets/icons/coin.svg" alt="coin" />
-              <h3>Subheadline</h3>
-              <p>Lorem ipsum dolor sit
-                amet, consetetur 
-                sadipscing elitr, sed 
-                diam nonumy eirmod 
-                tempor invidunt ut 
-                labore et dolore magna 
-                aliquyam erat, sed 
-                diam voluptua. At vero 
-                eos et accusam et justo 
-                duo dolores et ea 
-                rebum. Stet clita kasd
-                gubergren, no sea. 
-              </p>
+              <h4 className="headline">🐈</h4>
+              <h3>What is ViCat?</h3>
+              <p>ViCat is made in Germany by senior cryptoenthusiasts. 
+              <br/><br/>It's <i>fast</i>, under 1 second transfertime.
+              <br/><br/>It's <i>feeless</i>, send ur friends ur ViCat Coins for free.
+              <br/><br/>It's <i>decentralized</i>, no need to worry about a man-in-the-middle.
+              <br/><br/>It's a <i>Cat Meme Coin</i>, come on, can it get any better than that?</p>
             </div>
             <div className="info-card">
               <img src="/assets/icons/vite.svg" alt="vite" />
-              <h3>Subheadline</h3>
-              <p>Lorem ipsum dolor sit
-                amet, consetetur 
-                sadipscing elitr, sed 
-                diam nonumy eirmod 
-                tempor invidunt ut 
-                labore et dolore magna 
-                aliquyam erat, sed 
-                diam voluptua. At vero 
-                eos et accusam et justo 
-                duo dolores et ea 
-                rebum. Stet clita kasd
-                gubergren, no sea. 
-              </p>
+              <h3>What is Vite?</h3>
+              <p>VITE believes in a future where many blockchains will grow to serve different needs. <br/>Easy transfer of data and assets between blockchains will become increasingly important. <br/>Vite is designed to bridge every blockchain in a decentralized way.
+              <br/>VITE is the fuel powers transactions on Vite’s chain. <br/><br/><a href="https://vite.org/">Learn more!</a></p>
             </div>
             <div className="info-card">
-              <img src="/assets/icons/coin_green.png" alt="vicat coin" />
-              <h3>Subheadline</h3>
-              <p>Lorem ipsum dolor sit
-                amet, consetetur 
-                sadipscing elitr, sed 
-                diam nonumy eirmod 
-                tempor invidunt ut 
-                labore et dolore magna 
-                aliquyam erat, sed 
-                diam voluptua. At vero 
-                eos et accusam et justo 
-                duo dolores et ea 
-                rebum. Stet clita kasd
-                gubergren, no sea. 
+              <h4>🪙</h4>
+              <h3>How to get it?</h3>
+              <p><i>Join us</i>
+              <br/>ViCat rewards are distributed every day to those who participate in the community on our channels.
+
+              <br/><br/><i>Daily Voting Rewards </i>
+              <br/>ViCat is distributed to everyone that votes for the Swiss Community Node SBP.
+
+              <br/><br/><i>Tasks</i>
+              <br/>Help us grow and more enjoyable to earn free $ViCat. Check our channels for open Community Tasks.
               </p>
             </div>
           </div>
@@ -427,8 +421,8 @@ function App() {
             }
 
             .info-card {
-              height: 500px;
-              width: 200px;
+              height: 600px;
+              width: 225px;
               box-shadow: 0 3px 20px black;
               display: flex;
               flex-direction: column;
@@ -439,7 +433,19 @@ function App() {
             }
 
             .info-card img {
-              width: 90px;
+              height: 90px;
+            }
+
+            .info-card h4 {
+              height: 90px;
+              font-size: 90px;
+              margin: 0;
+            }
+
+            .info-card .headline {
+              background: -webkit-linear-gradient(-90deg, #ffc99e, var(--orange1));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
             }
 
             .info-card h3 {
@@ -447,6 +453,8 @@ function App() {
               font-weight: lighter;
               font-style: oblique;
               font-size: 23px;
+              text-align: center;
+              margin-bottom: 10px;
             }
 
             .info-card p {
@@ -455,6 +463,25 @@ function App() {
               font-style: oblique;
               font-size: 16px;
               line-height: 1.5;
+            }
+
+            .info-card p i {
+              color: var(--orange1);
+              font-weight: bold;
+            }
+
+            .info-card p a {
+              color: var(--green1);
+              text-decoration: none;
+              font-weight: bold;
+              font-size: 1.1em;
+              text-align: center;
+              width: 100%;
+              transition: all .5s;
+            }
+
+            .info-card p a:hover {
+              color: #1e5328;
             }
 
             @media (max-width: 900px) {
