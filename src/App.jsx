@@ -390,7 +390,7 @@ function App() {
               <br/>ViCat is distributed to everyone that votes for the Swiss Community Node SBP.
 
               <br/><br/><i>Tasks</i>
-              <br/>Help us grow and more enjoyable to earn free $ViCat. Check our channels for open Community Tasks.
+              <br/>Help us grow and participate to earn free $ViCat. Check our channels for open Community Tasks.
               </p>
             </div>
           </div>
