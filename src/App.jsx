@@ -61,6 +61,7 @@ function App() {
             font-size: 85px;
             color: var(--green1);
             position: absolute;
+            text-shadow: 2px 2px var(--green3);
             font-family: 'Silom', 'Montserrat', sans-serif;
           }
 
@@ -329,7 +330,7 @@ function App() {
             }
 
             .info-board p a {
-              color: #1e5328;
+              color: var(--green8);
               text-decoration: none;
               font-weight: bold;
               transition: all .5s;
@@ -396,7 +397,7 @@ function App() {
               <br/>VITE is the fuel powers transactions on Vite’s chain. <br/><br/><a href="https://vite.org/">Learn more!</a></p>
             </div>
             <div className="info-card">
-              <h4>🪙</h4>
+            <img src="/assets/icons/coin_green.png" alt="vite" />
               <h3>How to get it?</h3>
               <p><i>Join us</i>
               <br/>ViCat rewards are distributed every day to those who participate in the community on our channels.
@@ -487,8 +488,7 @@ function App() {
             }
 
             .info-card p a {
-              color: var(--orange1);
-              text-decoration: none;
+              color: var(--green8);
               font-weight: bold;
               font-size: 1.1em;
               text-align: center;
@@ -497,7 +497,7 @@ function App() {
             }
 
             .info-card p a:hover {
-              color: #1e5328;
+              color: var(--green1);
             }
 
             @media (max-width: 900px) {
@@ -621,7 +621,11 @@ function App() {
             }
 
             a i {
-              color: var(--green1);
+              color: var(--green8);
+            }
+
+            a i:hover {
+              color: var(--green8);
             }
 
             @media (max-width: 1100px) {
