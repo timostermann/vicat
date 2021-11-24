@@ -391,6 +391,7 @@ function App() {
               <br/><br/>It's <i>feeless</i>, send ur friends ur ViCat Coins for free.
               <br/><br/>It's <i>decentralized</i>, no need to worry about a man-in-the-middle.
               <br/><br/>It's a <i>Cat Meme Coin</i>, come on, can it get any better than that?</p>
+              <p class="vitescan"><a href="https://vitescan.io/token/tti_b3fbb46b9318b3d168ba904e">Token Details</a></p>
             </div>
             <div className="info-card">
               <img src="/assets/icons/vite.svg" alt="vite" />
@@ -439,7 +440,7 @@ function App() {
             }
 
             .info-card {
-              height: 600px;
+              height: 615px;
               width: 225px;
               box-shadow: 0 3px 20px black;
               display: flex;
@@ -448,6 +449,10 @@ function App() {
               background: linear-gradient(to top, var(--green7) 0%, #2B352C 30%, #0A150B 75%);
               border-radius: 25px;
               padding: 25px;
+            }
+
+            .vitescan {
+              margin: 0;
             }
 
             .info-card img {
