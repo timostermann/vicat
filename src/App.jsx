@@ -16,7 +16,6 @@ function App() {
 
   function onScroll() {
     const newAngle = window.scrollY / window.innerHeight * 720;
-    console.log(angle);
     setOpacity((newAngle - angle) > 3 ? (newAngle - angle) / 10 : 0);
     setAngle(window.scrollY / window.innerHeight * 720);
     setTranslation(window.scrollY / 10);
@@ -60,9 +59,9 @@ function App() {
 
           .coin-view p {
             font-size: 85px;
-            color: var(--orange1);
+            color: var(--green1);
             position: absolute;
-            font-family: 'Silom';
+            font-family: 'Silom', 'Montserrat', sans-serif;
           }
 
           @keyframes fadeIn {
@@ -127,7 +126,8 @@ function App() {
             width: 300px;
             position: fixed;
             transform: translateY(${translation}px) rotate(${angle}deg);
-            z-index: -1
+            z-index: -1;
+            display: ${show ? "none" : "block"};
           }
 
           .slot-wrapper {
@@ -177,7 +177,7 @@ function App() {
             }
 
             .coin-view p:nth-of-type(1) {
-              transform: rotate(-30deg) translateY(500px) translateX(-250px);
+              transform: rotate(-30deg) translateY(400px) translateX(-250px);
               font-size: 35px;
             }
   
@@ -359,6 +359,21 @@ function App() {
                 width: 95%;
               }
             }
+
+            @media (max-width: 500px) {
+              h1 {
+                font-size: 80px;
+              }
+
+              .info-board h2 {
+                font-size: 25px;
+              }
+
+              .info-board p {
+                font-size: 16px;
+                margin-bottom: 30px;
+              }
+            }
           `}
         </style>
       </div>
@@ -443,13 +458,13 @@ function App() {
             }
 
             .info-card .headline {
-              background: -webkit-linear-gradient(-90deg, #ffc99e, var(--orange1));
+              background: -webkit-linear-gradient(-90deg, #ffffff, var(--green1));
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
             }
 
             .info-card h3 {
-              color: var(--orange1);
+              color: var(--green1);
               font-weight: lighter;
               font-style: oblique;
               font-size: 23px;
@@ -458,6 +473,7 @@ function App() {
             }
 
             .info-card p {
+              width: 100%;
               color: white;
               font-weight: lighter;
               font-style: oblique;
@@ -466,12 +482,12 @@ function App() {
             }
 
             .info-card p i {
-              color: var(--orange1);
+              color: var(--green1);
               font-weight: bold;
             }
 
             .info-card p a {
-              color: var(--green1);
+              color: var(--orange1);
               text-decoration: none;
               font-weight: bold;
               font-size: 1.1em;
@@ -570,7 +586,7 @@ function App() {
               height: 200px;
               border-radius: 100%;
               box-shadow: 3px 5px 16px #0f0f0f;
-              background: linear-gradient(45deg, #1b261c, #bd520e);
+              background: linear-gradient(45deg, #002c0d76, var(--green1));
               display: flex;
               justify-content: center;
               align-items: center;
@@ -605,7 +621,7 @@ function App() {
             }
 
             a i {
-              color: var(--orange1);
+              color: var(--green1);
             }
 
             @media (max-width: 1100px) {
