@@ -207,7 +207,7 @@ function App() {
           <div className="info-board"> 
             <h2>The First <i>Cat Token</i> in the <i>Vite</i> Ecosystem</h2>
             <p>ViCat is the first cat coin <b>Made in Germany</b> with zero fees and instant transfers! We love cats and ViCat is the Vite chain's very own fast and fluffy feeless cat coin. ViCat wants to bring some joy to the often missed <i>Cat Lovers</i> in the <i>Crypto Community</i>. There are quite a few dog coins out there but cats seem to come short way too often. We will try to change that with your help! 
-            <br/>If you want to be a part of the <i>ViCat Movement</i>, join the <a href="https://discord.gg/mqRuTWP4wY">Community Discord</a>.
+            <br/>If you want to be a part of the <i>ViCat Movement</i>, join the <a target="_blank" rel="noreferrer" href="https://discord.gg/mqRuTWP4wY">Community Discord</a>.
             <br/><br/>If you want to work with us, we're still looking for coders and designers.
             <br/><i>Stay tuned!</i>
             </p>
@@ -391,13 +391,13 @@ function App() {
               <br/><br/>It's <i>feeless</i>, send ur friends ur ViCat Coins for free.
               <br/><br/>It's <i>decentralized</i>, no need to worry about a man-in-the-middle.
               <br/><br/>It's a <i>Cat Meme Coin</i>, come on, can it get any better than that?</p>
-              <p class="vitescan"><a href="https://vitescan.io/token/tti_b3fbb46b9318b3d168ba904e">Token Details</a></p>
+              <p class="vitescan"><a target="_blank" rel="noreferrer" href="https://vitescan.io/token/tti_b3fbb46b9318b3d168ba904e">Token Details</a></p>
             </div>
             <div className="info-card">
               <img src="/assets/icons/vite.svg" alt="vite" />
               <h3>What is Vite?</h3>
               <p>VITE believes in a future where many blockchains will grow to serve different needs. <br/>Easy transfer of data and assets between blockchains will become increasingly important. <br/>Vite is designed to bridge every blockchain in a decentralized way.
-              <br/>VITE is the fuel powers transactions on Vite’s chain. <br/><br/><a href="https://vite.org/">Learn more!</a></p>
+              <br/>VITE is the fuel powers transactions on Vite’s chain. <br/><br/><a target="_blank" rel="noreferrer" href="https://vite.org/">Learn more!</a></p>
             </div>
             <div className="info-card">
             <img src="/assets/icons/coin_green.png" alt="vite" />
@@ -528,22 +528,22 @@ function App() {
           <h2>Our Channels</h2>
           <div className="button-group">
             <div className="button-wrapper">
-              <a href="https://instagram.com/vicat_777" className="button">
+              <a target="_blank" rel="noreferrer" href="https://instagram.com/vicat_777" className="button">
                 <img src="/assets/icons/instagram.svg" alt="Instagram"/>
               </a>
-              <a href="https://instagram.com/vicat_777" className="button-description"><i>Follow</i> ViCat on <i>Instagram</i> </a>
+              <a target="_blank" rel="noreferrer" href="https://instagram.com/vicat_777" className="button-description"><i>Follow</i> ViCat on <i>Instagram</i> </a>
             </div>
             <div className="button-wrapper">
-              <a href="https://twitter.com/ViCat_777" className="button">
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/ViCat_777" className="button">
                 <img src="/assets/icons/twitter.png" alt="Twitter"/>
               </a>
-              <a href="https://twitter.com/ViCat_777" className="button-description">...or <i>Twitter</i> </a>
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/ViCat_777" className="button-description">...or <i>Twitter</i> </a>
             </div>
           <div className="button-wrapper">
-              <a href="https://discord.gg/mqRuTWP4wY" className="button">
+              <a target="_blank" rel="noreferrer" href="https://discord.gg/mqRuTWP4wY" className="button">
                 <img src="/assets/icons/discord.png" alt="Discord"/>
               </a>
-              <a href="https://discord.gg/mqRuTWP4wY" className="button-description">{'& '}&nbsp; <i>Join</i> the<i> Community!</i> </a>
+              <a target="_blank" rel="noreferrer" href="https://discord.gg/mqRuTWP4wY" className="button-description">{'& '}&nbsp; <i>Join</i> the<i> Community!</i> </a>
             </div>
           </div>
         </div>
