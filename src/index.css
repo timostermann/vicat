@@ -23,7 +23,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--grey2);
+  background-color: var(--grey3);
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 code {

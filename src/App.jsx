@@ -204,9 +204,10 @@ function App() {
           <img src="/assets/icons/coin_green.png" alt="vicat coin" className={"deco-coin " + (show ? "show" : "")}/>
           <img src="/assets/icons/coin_green.png" alt="vicat coin" className={"deco-coin " + (show ? "show" : "")}/>
           <h1>ViCat</h1>
-          <div className="info-board">
+          <div className="info-board"> 
             <h2>The First <i>Cat Token</i> in the <i>Vite</i> Ecosystem</h2>
-            <p>ViCat is the first cat coin <b>Made in Germany</b> with zero fees and instant transfers! We love cats and ViCat is the Vite chain's very own fast and fluffy feeless cat coin. ViCat wants to bring some joy to the often missed <i>Cat Lovers</i> in the <i>Crypto Community</i>. There are quite a few dog coins out there but cats seem to come short way too often. We will try to change that with your help! If you want to be a part of the <i>ViCat Movement</i>, join the <a href="https://discord.gg/mqRuTWP4wY">Community Discord</a>.
+            <p>ViCat is the first cat coin <b>Made in Germany</b> with zero fees and instant transfers! We love cats and ViCat is the Vite chain's very own fast and fluffy feeless cat coin. ViCat wants to bring some joy to the often missed <i>Cat Lovers</i> in the <i>Crypto Community</i>. There are quite a few dog coins out there but cats seem to come short way too often. We will try to change that with your help! 
+            <br/>If you want to be a part of the <i>ViCat Movement</i>, join the <a href="https://discord.gg/mqRuTWP4wY">Community Discord</a>.
             <br/><br/>If you want to work with us, we're still looking for coders and designers.
             <br/><i>Stay tuned!</i>
             </p>
@@ -323,6 +324,7 @@ function App() {
               background: -webkit-linear-gradient(45deg ,#000000, #fc0101, #ffee00);
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
+              white-space: nowrap;
             }
 
             .info-board p i {
@@ -384,7 +386,7 @@ function App() {
             <div className="info-card">
               <h4 className="headline">🐈</h4>
               <h3>What is ViCat?</h3>
-              <p>ViCat is made in Germany by senior cryptoenthusiasts. 
+              <p>ViCat is Made in Germany by senior cryptoenthusiasts. 
               <br/><br/>It's <i>fast</i>, under 1 second transfertime.
               <br/><br/>It's <i>feeless</i>, send ur friends ur ViCat Coins for free.
               <br/><br/>It's <i>decentralized</i>, no need to worry about a man-in-the-middle.
