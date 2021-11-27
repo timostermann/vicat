@@ -543,7 +543,7 @@ function App() {
               <a target="_blank" rel="noreferrer" href="https://discord.gg/mqRuTWP4wY" className="button">
                 <img src="/assets/icons/discord.png" alt="Discord"/>
               </a>
-              <a target="_blank" rel="noreferrer" href="https://discord.gg/mqRuTWP4wY" className="button-description">{'& '}&nbsp; <i>Join</i> the<i> Community!</i> </a>
+              <a target="_blank" rel="noreferrer" href="https://discord.gg/mqRuTWP4wY" className="button-description">{'& '}<i>Join</i> the<i> Community!</i> </a>
             </div>
           </div>
         </div>
