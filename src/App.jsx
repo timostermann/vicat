@@ -523,6 +523,36 @@ function App() {
           `}
         </style>
       </div>
+      <div className="roadmap-view">
+        <div className="image-wrapper">
+          <img src="/assets/roadmap.png" alt="vite" />
+        </div>
+        <style jsx="true">
+          {`
+            .roadmap-view {
+              width: 100%;
+              min-height: 100vh;
+              display: flex;
+              justify-content: center;
+              background: linear-gradient(to top, #142C18, #000);
+            }
+
+            .image-wrapper {
+              width: 90%;
+              display: flex;
+              border-radius: 25px;
+              justify-content: center;
+            }
+
+            .roadmap-view img {
+              border-radius: 25px;
+              width: 100%;
+              height: 100%;
+              object-fit: scale-down;
+            }
+          `}
+        </style>
+      </div>
       <div className="contact-view">
         <div className="contact-wrapper">
           <h2>Our Channels</h2>
