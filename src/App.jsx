@@ -41,7 +41,7 @@ function App() {
           </div>
         </div>
         
-      <style jsx="true">
+      <style jsx>
         {`
           .coin-view {
              width: 100%;
@@ -214,7 +214,7 @@ function App() {
           </div>
         </div>
         
-        <style jsx="true">
+        <style jsx>
           {`
             .basic-view {
               width: 100%;
@@ -415,7 +415,7 @@ function App() {
           </div>
         </div>
         
-        <style jsx="true">
+        <style jsx>
           {`
             .info-view {
               width: 100%;
@@ -527,7 +527,7 @@ function App() {
         <div className="image-wrapper">
           <img src="/assets/roadmap.png" alt="vite" />
         </div>
-        <style jsx="true">
+        <style jsx>
           {`
             .roadmap-view {
               width: 100%;
@@ -578,7 +578,7 @@ function App() {
           </div>
         </div>
         
-        <style jsx="true">
+        <style jsx>
           {`
             .contact-view {
               width: 100%;
